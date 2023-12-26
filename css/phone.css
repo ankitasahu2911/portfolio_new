@@ -2,8 +2,10 @@
     font-size: 3.2rem;
     padding: 39px;
 }
+
 .navbar_section{
     height: 110px;
+    width: 87rem;
 }
 .home_section , #about , #projects , #contact{
     width: 87rem;;
