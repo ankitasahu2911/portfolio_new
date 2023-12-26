@@ -25,3 +25,6 @@ h2{
 .box2{
     width: 37rem;
 }
+.phone, .gmail, .twitter, .linkedin{
+    left: 453px;
+}
