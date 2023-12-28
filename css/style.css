@@ -119,8 +119,8 @@ img{
 
 .grid_about{
     display: grid;
-    grid-template-rows: 1fr 1fr 4fr;
-    grid-auto-rows: 2fr;
+    /* grid-template-rows: 1fr 1fr 4fr; */
+    /* grid-auto-rows: 2fr; */
     margin: 0px 0px;
     grid-template-columns: repeat(2,4fr);
     height: 570px;
@@ -206,7 +206,7 @@ height: 364px;
 .t{
     display: flex;
     padding: 12px;
-    
+    grid-template-columns: repeat(4,4fr);
 }
 img{
     

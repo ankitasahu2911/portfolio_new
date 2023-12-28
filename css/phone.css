@@ -26,5 +26,19 @@ h2{
     width: 37rem;
 }
 .phone, .gmail, .twitter, .linkedin{
-    left: 469px;
+    left: 447px;
+}
+#projects {
+    height: 693px;
+}
+.t{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+#project{
+    margin: 34px;
+    width: 74%;
+}
+img{
+    width: 32rem;
 }
