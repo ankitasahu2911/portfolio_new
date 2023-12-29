@@ -69,6 +69,8 @@ h2{
     height: 40px;
     width: 119px;
     border: 2px solid;
+
+    
 }   
 .resume:hover{
     cursor: pointer;
@@ -128,6 +130,10 @@ img{
 .box1 , .box2{
     /* border: 1px solid black; */
     height: 600px;
+}
+#box2:hover{
+    cursor: pointer;
+    transform: translate3d(10%);
 }
 #m{
     /* text-align: center; */
