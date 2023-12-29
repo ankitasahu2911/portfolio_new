@@ -8,22 +8,66 @@
     width: 87rem;
 }
 .home_section , #about , #projects , #contact{
-    width: 87rem;;
+    width: 63rem;
+    height: 84rem;
 }
+
 h3{
-    font-size: 4.4rem;
+    font-size: 6.4rem;
+    top: 112px;
+}
+.grid{
+    display: block;
+    height: 80rem;
+    align-items: center;
 }
 h2{
-    font-size: 3.6rem;
+    font-size: 5.6rem;
+    left: auto;
 }
 #home{
-    font-size: 1.2rem;
+    font-size: 2.6rem;
+    left: auto;
+}
+.resume{
+    left: auto;
+    font-size: 2.6rem;
+    height: 64px;
+    width: 223px;
+}
+.grid_about{
+    grid-template-columns: auto;
+    height: 22rem;
+}
+#my_skill{
+    font-size: 4.8rem;
+    top: 37px;
 }
 .skills{
-    left: 70px;
+    left: 110px;
+    width: 238px;
+    height: 175px;
+    
+}
+#skill{
+    width: 122px;
+    height: 109px;
+}
+#box1{
+    position: relative;
+    top: 26rem;
+    text-align: center;
+}
+#box2{
+    bottom: 26rem;
+    top:auto;
+    left: 19rem;
 }
 .box2{
-    width: 37rem;
+    width: 63rem;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
 }
 .phone, .gmail, .twitter, .linkedin{
     left: 447px;
