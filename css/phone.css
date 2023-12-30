@@ -1,6 +1,6 @@
 .navbar_section ul li a {
      
-        font-size: 4.2rem;
+        font-size: 3.7rem;
         padding: 23px;
     
 }
@@ -37,6 +37,9 @@ h2{
     height: 64px;
     width: 223px;
 }
+.resume:hover{
+    width: 230px;
+}
 .grid_about{
     grid-template-columns: auto;
     height: 84rem;
@@ -68,11 +71,14 @@ h6{
     top:auto;
     left: 19rem;
 }
+
  .box2 , .box1{
     width: 62rem;
     
 } 
-
+.box2:hover{
+    
+}
 .box1{
     text-align:center;
     position: relative;
