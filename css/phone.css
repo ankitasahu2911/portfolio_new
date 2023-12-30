@@ -1,13 +1,15 @@
 .navbar_section ul li a {
-    font-size: 3.2rem;
-    padding: 39px;
+     
+        font-size: 4.2rem;
+        padding: 23px;
+    
 }
 
 .navbar_section{
-    height: 110px;
+    height: 145px;
     width: 87rem;
 }
-.home_section , #about , #projects , #contact{
+.home_section , #about{
     width: 63rem;
     height: 84rem;
 }
@@ -37,17 +39,20 @@ h2{
 }
 .grid_about{
     grid-template-columns: auto;
-    height: 22rem;
+    height: 84rem;
 }
 #my_skill{
     font-size: 4.8rem;
     top: 37px;
 }
 .skills{
-    left: 110px;
-    width: 238px;
-    height: 175px;
-    
+    left: 21px;
+    width: 297px;
+    height: 193px;
+    top: 87px;
+}
+h6{
+    font-size: 30px;
 }
 #skill{
     width: 122px;
@@ -63,27 +68,63 @@ h2{
     top:auto;
     left: 19rem;
 }
-.box2{
-    width: 63rem;
-    /* align-items: center;
-    justify-content: center;
-    display: flex; */
+ .box2 , .box1{
+    width: 62rem;
+    
+} 
+
+.box1{
+    text-align:center;
+    position: relative;
+    bottom: 407px;
+
 }
-.phone, .gmail, .twitter, .linkedin{
-    left: 447px;
+#m{
+    text-align: center;
+    font-size: 4.8rem;
+    width: 45rem;
 }
+#intro{
+    font-size: 2.6rem;
+    width: 47rem;
+    height: 40rem;
+    
+    top: 51px;
+    right: 2.6rem;
+}
+#contact{
+    height: 23rem;
+}
+ .phone, .gmail, .twitter, .linkedin{
+    left: 87px;
+    width: 180px;
+    height: 152px;
+}
+#phone, #gmail, #twitter, #linkedin{
+    height: 102px;
+    width: 102px; 
+}
+
 #projects {
-    height: 693px;
+    height: 113rem;
 }
 .t{
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(1,auto);
 }
 #project{
     margin: 34px;
     width: 77%;
+    left: 71px;
 }
 img{
-    width: 32rem;
+    width: 46rem;
+    height: 319px;
     margin: 8px;
+}
+#works{
+    font-size: 4.8rem;
+}
+.contact{
+    font-size: 4.8rem;
 }
